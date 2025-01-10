@@ -13,6 +13,8 @@ jobs:
         with:
           user: bguillozet
           template: terminal
+          filename: metrics.terminal.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, metadata
           base_indepth: yes
           config_octicon: yes
